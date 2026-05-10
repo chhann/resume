@@ -51,7 +51,7 @@ const profile: ProfilePayload = {
   tagline: 'Frontend Engineer',
   headings: [
     { value: 'Frontend', label: 'Primary focus' },
-    { value: 'Full-stack', label: 'Project scope' },
+    { value: '96.08.05', label: 'Born' },
     { value: '부산', label: 'Address' },
   ],
 };
