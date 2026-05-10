@@ -1,57 +1,48 @@
-import { faEnvelope, faPen, faPhone, faRss } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faPhone, faRss } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { ProfilePayload } from '../types/profile';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 
-const image = '/20240930-5.png';
+const image = '/20260507.png';
 
 const profile: ProfilePayload = {
   disable: false,
-
-  // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: '유용우',
-    small: '(요우)',
+    title: '이정찬',
+    small: '',
   },
   contact: [
     {
-      title: 'me@yowu.dev',
-      link: 'mailto:me@yowu.dev',
+      title: 'wjdcks2252@gmail.com',
+      link: 'mailto:wjdcks2252@gmail.com',
       icon: faEnvelope,
     },
     {
-      title: 'Please contact me by email',
+      title: '010-5168-2220',
       icon: faPhone,
       badge: true,
     },
     {
-      link: 'https://wiki.yowu.dev',
-      icon: faPen,
-    },
-    {
-      link: 'https://github.com/uyu423',
+      link: 'https://github.com/chhann',
       icon: faGithub,
     },
     {
-      link: 'https://fb.com/luckyyowu',
-      icon: faFacebook,
-    },
-    {
-      link: 'https://blog.yowu.dev',
+      title: 'velog',
+      link: 'https://velog.io/@wjdcks2252/posts',
       icon: faRss,
     },
   ],
   notice: {
-    title: '휴대전화나 페이스북 메시지 아닌 이메일로 연락 부탁드립니다.',
+    title: '휴대전화 또는 이메일로 연락 부탁드립니다.',
     icon: faBell,
   },
-  tagline: 'from Backend Developer to Product Engineer',
+  tagline: 'Frontend Engineer',
   headings: [
-    { value: '10+', label: 'Years of experience' },
-    { value: '400+', label: 'Tech Post' },
-    { value: '350+', label: 'GitHub Stars' },
+    { value: 'Frontend', label: 'Primary focus' },
+    { value: 'Full-stack', label: 'Project scope' },
+    { value: '부산', label: 'Address' },
   ],
 };
 

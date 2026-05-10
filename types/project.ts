@@ -6,7 +6,7 @@ import { ListSectionPayload } from './common';
  *
  * ![image](https://user-images.githubusercontent.com/8033320/78034257-726f1480-73a2-11ea-9bbe-fc9bde4551d1.png)
  *
- * @example https://github.com/uyu423/resume-nextjs/blob/master/payload/project.ts
+ * @example https://github.com/chhann/resume/blob/master/payload/project.ts
  */
 export interface ProjectPayload extends ListSectionPayload {
   /** ### 프로젝트 리스트 */

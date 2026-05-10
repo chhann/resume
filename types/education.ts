@@ -1,11 +1,12 @@
 import { ListSectionPayload } from './common';
+import { RowDescription } from './row';
 
 /**
  * ### Sample Rendering
  *
  * ![image](https://user-images.githubusercontent.com/8033320/78058621-8c6d1f00-73c3-11ea-92ec-7f9f036dc985.png)
  *
- * @example https://github.com/uyu423/resume-nextjs/blob/master/payload/education.ts
+ * @example https://github.com/chhann/resume/blob/master/payload/education.ts
  */
 export interface EducationPayload extends ListSectionPayload {
   /** ### 교육 수료 리스트 */
@@ -35,4 +36,10 @@ export interface EducationItem {
    * @description 해당 값이 undefined 일 경우 아직 졸업하지 않은 것으로 판단.
    */
   endedAt?: string;
+
+  /** ### 교육/훈련 상세 설명 */
+  descriptions?: RowDescription[];
+
+  /** ### 교육/훈련에서 사용한 주요 기술 키워드 */
+  skillKeywords?: string[];
 }

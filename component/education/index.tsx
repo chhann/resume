@@ -21,7 +21,7 @@ export function EducationSection({ payload }: { payload: Payload }) {
 
 function EducationContent({ payload }: { payload: Payload }) {
   return (
-    <CommonSection title="EDUCATION">
+    <CommonSection title="EDUCATION & TRAINING">
       <EducationRow payload={payload} />
     </CommonSection>
   );

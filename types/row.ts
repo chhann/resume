@@ -12,6 +12,7 @@ export interface RowRight {
   title?: string;
   subTitle?: string;
   descriptions?: RowDescription[];
+  skillKeywords?: string[];
 }
 
 /**
@@ -32,7 +33,7 @@ export interface RowDescription {
    *
    * @default 'DEFAULT'
    * @description Pretendard 에서 font-weight 300 을 DEFAULT 로 사용하고 있다.
-   * @see https://github.com/uyu423/resume-nextjs/blob/master/component/common/CommonRow.tsx
+   * @see https://github.com/chhann/resume/blob/master/component/common/CommonRow.tsx
    */
   weight?: FontWeightType;
 

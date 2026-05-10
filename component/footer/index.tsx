@@ -17,8 +17,8 @@ function FooterContent({ payload }: { payload: Payload }) {
     <footer className="resume-footer">
       <small>
         v.{`${payload.version} / `}
-        {/* Github 주소는 origin repository 의 주소를 넣는다. */}
-        <HrefTargetBlank url="https://github.com/uyu423/resume-nextjs" text="Github" />
+        {/* GitHub 주소는 origin repository 의 주소를 넣는다. */}
+        <HrefTargetBlank url={payload.github} text="GitHub" />
         {' / '}
         Thanks for <HrefTargetBlank url="https://blog.outsider.ne.kr/1234" text="Outsider" />
       </small>

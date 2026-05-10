@@ -7,8 +7,7 @@ import { FooterSection } from '../component/footer';
 import { HighlightSection } from '../component/highlight';
 import { IntroduceSection } from '../component/introduce';
 import { TestimonialSection } from '../component/testimonial';
-import { OpenSourceSection } from '../component/openSource';
-import { PresentationSection } from '../component/presentation';
+// import { PresentationSection } from '../component/presentation';
 import { ProfileSection } from '../component/profile';
 import { ProjectSection } from '../component/project';
 import { SkillSection } from '../component/skill';
@@ -25,8 +24,8 @@ const SECTION_MAP: Record<SectionKey, ReactNode> = {
   experience: <ExperienceSection payload={Payload.experience} />,
   project: <ProjectSection payload={Payload.project} />,
   skill: <SkillSection payload={Payload.skill} />,
-  openSource: <OpenSourceSection payload={Payload.openSource} />,
-  presentation: <PresentationSection payload={Payload.presentation} />,
+  openSource: null,
+  presentation: null,
   article: <ArticleSection payload={Payload.article} />,
   education: <EducationSection payload={Payload.education} />,
   testimonial: <TestimonialSection payload={Payload.testimonial} />,
@@ -104,7 +103,9 @@ function Yosume() {
                   },
                   url: Payload._global.jsonLd.url,
                   ...(Payload._global.jsonLd.sameAs && { sameAs: Payload._global.jsonLd.sameAs }),
-                  ...(Payload._global.jsonLd.knowsAbout && { knowsAbout: Payload._global.jsonLd.knowsAbout }),
+                  ...(Payload._global.jsonLd.knowsAbout && {
+                    knowsAbout: Payload._global.jsonLd.knowsAbout,
+                  }),
                 },
               }).replace(/</g, '\\u003c'),
             }}

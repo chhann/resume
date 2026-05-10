@@ -6,7 +6,7 @@ import { CommonPayload } from './common';
  *
  * ![image](https://user-images.githubusercontent.com/8033320/78017522-5c078f80-7387-11ea-9c04-8087da5787f1.png)
  *
- * @example https://github.com/uyu423/resume-nextjs/blob/master/payload/profile.ts
+ * @example https://github.com/chhann/resume/blob/master/payload/profile.ts
  */
 export interface ProfilePayload extends CommonPayload {
   /**

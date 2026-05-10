@@ -4,16 +4,10 @@ const backendLanguage: SkillItem = {
   category: 'Languages',
   items: [
     {
-      title: 'Kotlin',
-    },
-    {
-      title: 'Java',
-    },
-    {
       title: 'TypeScript',
     },
     {
-      title: 'javascript',
+      title: 'JavaScript',
     },
     {
       title: 'HTML/CSS',
@@ -22,25 +16,25 @@ const backendLanguage: SkillItem = {
 };
 
 const frameworkLib: SkillItem = {
-  category: 'Fameworks & Libraries',
+  category: 'Frameworks & Libraries',
   items: [
-    {
-      title: 'Spring Boot',
-    },
-    {
-      title: 'Node.js',
-    },
-    {
-      title: 'Express.js',
-    },
     {
       title: 'Next.js',
     },
     {
-      title: 'React.js',
+      title: 'React',
     },
     {
-      title: 'Coroutine',
+      title: 'NestJS',
+    },
+    {
+      title: 'Spring Boot',
+    },
+    {
+      title: 'Electron',
+    },
+    {
+      title: 'Tailwind CSS',
     },
   ],
 };
@@ -52,34 +46,19 @@ const infraDb: SkillItem = {
       title: 'AWS',
     },
     {
-      title: 'NCP',
+      title: 'Vercel',
     },
     {
-      title: 'Kubernetes',
+      title: 'Supabase',
     },
     {
       title: 'Docker',
     },
     {
-      title: 'nginx',
-    },
-    {
-      title: 'Apache',
-    },
-    {
-      title: 'Kafka',
+      title: 'PostgreSQL',
     },
     {
       title: 'MySQL',
-    },
-    {
-      title: 'Redis',
-    },
-    {
-      title: 'MongoDB',
-    },
-    {
-      title: 'Linux',
     },
   ],
 };
@@ -88,25 +67,16 @@ const toolIde: SkillItem = {
   category: 'Tools & IDEs',
   items: [
     {
-      title: 'Vim',
-    },
-    {
       title: 'VS Code',
     },
     {
-      title: 'IDEA',
+      title: 'IntelliJ IDEA',
     },
     {
       title: 'Git',
     },
     {
-      title: 'Github',
-    },
-    {
-      title: 'Bitbucket',
-    },
-    {
-      title: 'Jenkins',
+      title: 'GitHub',
     },
     {
       title: 'Jira',
@@ -117,30 +87,30 @@ const toolIde: SkillItem = {
   ],
 };
 
-const misc: SkillItem = {
-  category: 'Misc',
-  items: [
-    {
-      title: 'DevOps',
-    },
-    {
-      title: 'Agile',
-    },
-    {
-      title: 'HHKB',
-    },
-    {
-      title: 'Drum',
-    },
-    {
-      title: 'Electric Guitar',
-    },
-  ],
-};
+// const misc: SkillItem = {
+//   category: 'Misc',
+//   items: [
+//     {
+//       title: 'DevOps',
+//     },
+//     {
+//       title: 'Agile',
+//     },
+//     {
+//       title: 'HHKB',
+//     },
+//     {
+//       title: 'Drum',
+//     },
+//     {
+//       title: 'Electric Guitar',
+//     },
+//   ],
+// };
 
 const skill: SkillPayload = {
   disable: false,
-  skills: [backendLanguage, frameworkLib, infraDb, toolIde, misc],
+  skills: [backendLanguage, frameworkLib, infraDb, toolIde],
 };
 
 export default skill;

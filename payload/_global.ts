@@ -1,10 +1,10 @@
 import { GlobalPayload } from '../types/global';
 
 const favicon = '/favicon.ico';
-const previewImage = '/preview_20240930.jpg';
+const previewImage = '/20260507.png';
 
-const title = 'Resume: Yongwoo Yu';
-const description = "This is Back-end Developer Yowu's Resume. Thank you";
+const title = 'Resume: Jeongchan Lee';
+const description = "Frontend Engineer Jeongchan Lee's web resume.";
 
 export const _global: GlobalPayload = {
   favicon,
@@ -25,9 +25,9 @@ export const _global: GlobalPayload = {
       ],
       type: 'profile',
       profile: {
-        firstName: 'Yongwoo',
-        lastName: 'Yu',
-        username: 'luckyyowu',
+        firstName: 'Jeongchan',
+        lastName: 'Lee',
+        username: 'chhann',
         gender: 'male',
       },
     },
@@ -45,15 +45,27 @@ export const _global: GlobalPayload = {
     'etc',
   ],
   jsonLd: {
-    name: 'Yongwoo Yu',
-    jobTitle: 'Backend Developer',
-    worksFor: 'NAVER',
-    url: 'https://resume.yowu.dev',
+    name: 'Jeongchan Lee',
+    jobTitle: 'Frontend Engineer',
+    worksFor: 'CEO Portal',
+    url: 'https://resume.jeonchan.dev',
     sameAs: [
-      'https://github.com/uyu423',
-      'https://wiki.yowu.dev',
-      'https://blog.yowu.dev',
+      'https://github.com/chhann',
+      'https://velog.io/@wjdcks2252/posts',
     ],
-    knowsAbout: ['Kotlin', 'Java', 'Spring Boot', 'Node.js', 'TypeScript', 'Kubernetes'],
+    knowsAbout: [
+      'TypeScript',
+      'JavaScript',
+      'Next.js',
+      'React',
+      'NestJS',
+      'Spring Boot',
+      'PostgreSQL',
+      'MySQL',
+      'AWS',
+      'Vercel',
+      'Supabase',
+      'Electron',
+    ],
   },
 };

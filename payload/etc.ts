@@ -6,38 +6,28 @@ const etc: EtcPayload = {
 
   list: [
     {
-      title: 'NAVER Boostcamp 웹/모바일 10기 코드 리뷰어',
-      subTitle: 'Web (BE/FE) Code Reviewer / Project Mentor',
-      startedAt: '2025-09',
-      endedAt: '2025-12',
+      title: '부산외국어대학교',
+      subTitle: '중국어 전공',
+      startedAt: '2015-03',
+      endedAt: '2021-08',
     },
     {
-      title: 'NAVER Boostcamp 웹/모바일 8기 BE 리뷰어 및 멘토',
-      subTitle: 'Web Backend (Node.js) Code Reviewer / Project Mentor',
-      startedAt: '2023-09',
-      endedAt: '2023-12',
-    },
-    {
-      title: '가톨릭대학교 캡스톤디자인경연대회 최우수상',
-      subTitle: 'Tizen 기반의 삼성 스마트 TV와 안드로이드 OS 간의 Push Notification 연동 프로젝트',
-      startedAt: '2015-05',
-    },
-    {
-      title: '몽골 울란바타르 대학 IT 교육 봉사',
-      subTitle: '월드프렌즈 IT 봉사단 (한국정보화진흥원)',
-      startedAt: '2013-07',
-      endedAt: '2013-08',
+      title: '중국 월수 외국어대학교 교환학생',
+      subTitle: '중국어 회화 및 문법',
+      startedAt: '2019-09',
+      endedAt: '2020-01',
     },
     {
       title: '육군 병장 만기 전역',
-      subTitle: '통신병 → 행정병',
-      startedAt: '2011-07',
-      endedAt: '2013-04',
+      subTitle: '제7 탄약창경비중대',
+      startedAt: '2016-07',
+      endedAt: '2018-04',
     },
     {
-      title: '학생 정보올림피아드',
-      subTitle: '경시부문 (안동시 예선 은상, 경상북도 예선 장려)',
-      startedAt: '2008-05',
+      title: '개금고등학교',
+      subTitle: '인문계 졸업 (부산진구 개금동)',
+      startedAt: '2012-03',
+      endedAt: '2015-01',
     },
   ],
 };

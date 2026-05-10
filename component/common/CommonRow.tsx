@@ -25,8 +25,26 @@ export function CommonRows({ index, payload }: { payload: RowPayload; index: num
           ) : (
             ''
           )}
+          {right.skillKeywords ? <SkillKeywords keywords={right.skillKeywords} /> : ''}
         </div>
       </div>
     </div>
+  );
+}
+
+function SkillKeywords({ keywords }: { keywords: string[] }) {
+  return (
+    <ul className="description-list--padded">
+      <li>
+        <strong>Skill Keywords</strong>
+        <div className="experience-keywords">
+          {keywords.map((keyword, index) => (
+            <span key={index.toString()} className="tag tag--accent">
+              {keyword}
+            </span>
+          ))}
+        </div>
+      </li>
+    </ul>
   );
 }

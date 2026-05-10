@@ -4,22 +4,19 @@ const highlight: HighlightPayload = {
   disable: false,
   list: [
     {
-      title: 'Startup to Enterprise',
-      description:
-        '5인 스타트업부터 대기업까지, 다양한 규모의 조직에서 성장한 풀스택 커리어',
-      keywords: ['Adaptability', 'Growth', 'Leadership'],
+      title: 'Trade-off Driven Decision',
+      description: '복수 옵션을 비교·분석하고 판단 근거를 문서화하는 기술 의사결정 습관',
+      keywords: ['Architecture', 'Documentation', 'Decision Log'],
     },
     {
-      title: 'Product-Driven Architecture',
-      description:
-        '비즈니스 요구사항 구체화부터 대규모 시스템 설계, 성능 최적화, 성과 측정까지 전 과정을 주도',
-      keywords: ['System Design', 'Optimization', 'Business Impact'],
+      title: 'Domain-First Engineering',
+      description: '건축 인허가 프로세스와 공공 API를 직접 학습하며 도메인을 먼저 이해하는 개발자',
+      keywords: ['ConTech', 'Public API', 'Domain Research'],
     },
     {
-      title: 'Knowledge Sharing',
-      description:
-        '400여 개 기술 포스트, 다수의 외부 발표와 멘토링으로 개발 커뮤니티에 꾸준히 기여',
-      keywords: ['Blog', 'Mentoring', 'Open Source'],
+      title: 'Web Performance Engineering',
+      description: 'JS 번들 64% 감소, LCP 개선 등 측정 기반 프론트엔드 성능 최적화 경험',
+      keywords: ['LCP', 'Bundle Optimization', 'Lighthouse'],
     },
   ],
 };

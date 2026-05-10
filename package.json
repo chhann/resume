@@ -1,8 +1,8 @@
 {
-  "name": "resume-nextjs",
-  "latestUpdatedAt": "2026-03-24",
+  "name": "jeongchan-resume",
+  "latestUpdatedAt": "2026-05-10",
   "version": "2.0.0-alpha",
-  "description": "Static HTML based RESUME made with next.js",
+  "description": "Jeongchan Lee's static web resume built with Next.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,24 +15,24 @@
     "lint:fix": "npm run lint -- --fix",
     "typecheck": "tsc --noEmit"
   },
-  "homepage": "https://resume.yowu.dev",
+  "homepage": "https://resume.jeonchan.dev",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uyu423/resume-nextjs.git"
+    "url": "git+https://github.com/chhann/resume.git"
   },
   "keywords": [
     "resume",
     "next"
   ],
   "author": {
-    "name": "Yowu Yu",
-    "email": "me@yowu.dev",
-    "url": "https://yowu.dev"
+    "name": "Jeongchan Lee",
+    "email": "wjdcks2252@gmail.com",
+    "url": "https://resume.jeonchan.dev"
   },
   "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uyu423/resume-nextjs/issues"
+    "url": "https://github.com/chhann/resume/issues"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.7.2",

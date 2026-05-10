@@ -6,7 +6,7 @@ import { ListSectionPayload } from './common';
  *
  * ![image](https://user-images.githubusercontent.com/8033320/80116477-fd69b600-85c0-11ea-9fe5-5e5e664605f2.png)
  *
- * @example https://github.com/uyu423/resume-nextjs/blob/master/payload/presentation.ts
+ * @example https://github.com/chhann/resume/blob/master/payload/presentation.ts
  */
 export interface PresentationPayload extends ListSectionPayload {
   /** ### 발표 목록 */

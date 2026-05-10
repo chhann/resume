@@ -5,7 +5,7 @@ import { ListSectionPayload } from './common';
  *
  * ![image](https://user-images.githubusercontent.com/8033320/78029577-cf1b0100-739b-11ea-9c2c-a41acbe9125c.png)
  *
- * @example https://github.com/uyu423/resume-nextjs/blob/master/payload/skill.ts
+ * @example https://github.com/chhann/resume/blob/master/payload/skill.ts
  */
 export interface SkillPayload extends ListSectionPayload {
   /**
