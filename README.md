@@ -4,7 +4,7 @@ Next.js 기반 정적 웹 이력서입니다. 이력서 본문 데이터는 `pay
 
 ## Links
 
-- Resume: https://resume.jeonchan.dev
+- Resume: https://chhann.github.io/resume/
 - Repository: https://github.com/chhann/resume
 - GitHub: https://github.com/chhann
 - Blog: https://velog.io/@wjdcks2252/posts
@@ -66,9 +66,9 @@ GitHub Pages 설정:
 - Source: `Deploy from a branch`
 - Branch: `gh-pages`
 - Folder: `/ (root)`
-- Custom Domain: `resume.jeonchan.dev`
+- Custom Domain: 비워 둠
 
-`package.json`의 `homepage` 값이 `https://resume.jeonchan.dev`로 설정되어 있어, 빌드 후 `docs/CNAME`은 `resume.jeonchan.dev`로 생성됩니다.
+`package.json`의 `homepage` 값은 `https://chhann.github.io/resume`입니다. Project Pages(프로젝트 페이지) 배포이므로 별도 Custom Domain(커스텀 도메인)과 `CNAME`은 사용하지 않습니다.
 
 ## Resume Editing
 

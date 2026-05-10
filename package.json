@@ -15,7 +15,7 @@
     "lint:fix": "npm run lint -- --fix",
     "typecheck": "tsc --noEmit"
   },
-  "homepage": "https://resume.jeonchan.dev",
+  "homepage": "https://chhann.github.io/resume",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chhann/resume.git"
@@ -27,7 +27,7 @@
   "author": {
     "name": "Jeongchan Lee",
     "email": "wjdcks2252@gmail.com",
-    "url": "https://resume.jeonchan.dev"
+    "url": "https://chhann.github.io/resume"
   },
   "contributors": [],
   "license": "MIT",

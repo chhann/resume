@@ -3,6 +3,7 @@ const chalk = require('chalk');
 const shelljs = require('shelljs');
 const path = require('path');
 const { homepage } = require('./package.json');
+const docsCnamePath = path.join(__dirname, 'docs/CNAME');
 
 /**
  * * judge `CNAME` file
@@ -18,6 +19,11 @@ function judgeCnameCreation() {
   const githubIoRegex = /.+\.github\.io\/.+/;
 
   if (githubIoRegex.test(homepage)) {
+    if (shelljs.test('-f', docsCnamePath)) {
+      shelljs.rm(docsCnamePath);
+      console.log(chalk.yellow('shellwork: remove stale docs/CNAME file.'));
+    }
+
     console.log(
       chalk.yellow(
         `shellwork: The homepage field in package.json is '${homepage}'. Consider github pages hosting and don't generate docs/CNAME file.`,
@@ -35,7 +41,7 @@ function judgeCnameCreation() {
     ),
   );
 
-  shelljs.echo(url.hostname).to(path.join(__dirname, 'docs/CNAME'));
+  shelljs.echo(url.hostname).to(docsCnamePath);
 }
 
 /**

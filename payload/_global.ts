@@ -1,7 +1,18 @@
 import { GlobalPayload } from '../types/global';
+import { homepage } from '../package.json';
 
-const favicon = '/favicon.ico';
-const previewImage = '/20260507.png';
+const siteUrl = homepage.replace(/\/$/, '');
+const publicAssetPath = (path: string) => {
+  if (process.env.NODE_ENV !== 'production') return path;
+
+  const { pathname } = new URL(siteUrl);
+  const basePath = pathname === '/' ? '' : pathname.replace(/\/$/, '');
+  return `${basePath}${path}`;
+};
+const publicAssetUrl = (path: string) => `${siteUrl}${path}`;
+
+const favicon = publicAssetPath('/favicon.ico');
+const previewImage = publicAssetUrl('/20260507.png');
 
 const title = 'Resume: Jeongchan Lee';
 const description = "Frontend Engineer Jeongchan Lee's web resume.";
@@ -48,7 +59,7 @@ export const _global: GlobalPayload = {
     name: 'Jeongchan Lee',
     jobTitle: 'Frontend Engineer',
     worksFor: 'CEO Portal',
-    url: 'https://resume.jeonchan.dev',
+    url: siteUrl,
     sameAs: [
       'https://github.com/chhann',
       'https://velog.io/@wjdcks2252/posts',

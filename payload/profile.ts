@@ -3,8 +3,18 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { ProfilePayload } from '../types/profile';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
+import { homepage } from '../package.json';
 
-const image = '/20260507.png';
+const siteUrl = homepage.replace(/\/$/, '');
+const publicAssetPath = (path: string) => {
+  if (process.env.NODE_ENV !== 'production') return path;
+
+  const { pathname } = new URL(siteUrl);
+  const basePath = pathname === '/' ? '' : pathname.replace(/\/$/, '');
+  return `${basePath}${path}`;
+};
+
+const image = publicAssetPath('/20260507.png');
 
 const profile: ProfilePayload = {
   disable: false,
