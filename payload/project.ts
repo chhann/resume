@@ -1,7 +1,7 @@
 import { ProjectPayload } from '../types/project';
 
 const operationsAutomationTool = {
-  title: 'CEO포털 운영팀 업무 자동화 도구',
+  title: '(주)씨이오포털 운영팀 업무 자동화 도구',
   startedAt: '2025-11',
   endedAt: '2026-02',
   where: 'Operations Automation Tool / 풀스택 개발자',
@@ -22,7 +22,7 @@ const operationsAutomationTool = {
 };
 
 const aiReportAutomationTool = {
-  title: 'CEO포털 마케팅 리포트 자동 생성 도구',
+  title: '(주)씨이오포털 마케팅 리포트 자동 생성 도구',
   startedAt: '2026-04',
   endedAt: '2026-04',
   where: 'AI Report Automation Tool / 풀스택 개발자',
@@ -42,7 +42,7 @@ const aiReportAutomationTool = {
 };
 
 const todayTalkTalk = {
-  title: 'CEO포털 오늘톡톡 UI 리팩터링',
+  title: '(주)씨이오포털 오늘톡톡 UI 리팩터링',
   startedAt: '2026-04',
   where: '오늘톡톡 / 프론트엔드 개발자',
   descriptions: [
