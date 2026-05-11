@@ -22,7 +22,7 @@ const ceoPortal = {
         },
         {
           content:
-            '서비스 안정성 강화를 위한 Refactoring(리팩터링): Responsive UI(반응형 UI), CORS(Cross-Origin Resource Sharing), Data Pipeline(데이터 파이프라인)',
+            '서비스 안정성 강화를 위한 Refactoring(리팩토링): Responsive UI(반응형 UI), CORS(Cross-Origin Resource Sharing), Data Pipeline(데이터 파이프라인)',
         },
       ],
       skillKeywords: [

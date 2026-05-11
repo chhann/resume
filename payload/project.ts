@@ -16,7 +16,7 @@ const operationsAutomationTool = {
     },
     {
       content:
-        'Data Collection Pipeline(데이터 수집 파이프라인)을 Step-based Structure(단계 기반 구조)로 리팩터링하고 Checkpoint Resume(체크포인트 재개), File Streaming(파일 스트리밍), Cron Scheduler(스케줄러), Deduplication(중복 제거), Category Auto-classification(카테고리 자동 분류) 적용',
+        'Data Collection Pipeline(데이터 수집 파이프라인)을 Step-based Structure(단계 기반 구조)로 리팩토링하고 Checkpoint Resume(체크포인트 재개), File Streaming(파일 스트리밍), Cron Scheduler(스케줄러), Deduplication(중복 제거), Category Auto-classification(카테고리 자동 분류) 적용',
     },
   ],
 };
@@ -42,7 +42,7 @@ const aiReportAutomationTool = {
 };
 
 const todayTalkTalk = {
-  title: '(주)씨이오포털 오늘톡톡 UI 리팩터링',
+  title: '(주)씨이오포털 오늘톡톡 UI 리팩토링',
   startedAt: '2026-04',
   where: '오늘톡톡 / 프론트엔드 개발자',
   descriptions: [
