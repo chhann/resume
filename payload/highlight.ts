@@ -9,9 +9,10 @@ const highlight: HighlightPayload = {
       keywords: ['Architecture', 'Documentation', 'Decision Log'],
     },
     {
-      title: 'Domain-First Engineering',
-      description: '건축 인허가 프로세스와 공공 API를 직접 학습하며 도메인을 먼저 이해하는 개발자',
-      keywords: ['ConTech', 'Public API', 'Domain Research'],
+      title: 'Cross-Functional Collaboration',
+      description:
+        '기획자·디자이너와 Figma 화면 설계부터 협업, CS·운영 응대로 비즈니스 컨텍스트까지 이해',
+      keywords: ['Communication', 'Figma', 'Product Sense'],
     },
     {
       title: 'Web Performance Engineering',
