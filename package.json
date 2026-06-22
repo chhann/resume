@@ -1,6 +1,6 @@
 {
   "name": "jeongchan-resume",
-  "latestUpdatedAt": "2026-05-11",
+  "latestUpdatedAt": "2026-06-22",
   "version": "2.0.0-alpha",
   "description": "Jeongchan Lee's static web resume built with Next.js",
   "main": "index.js",

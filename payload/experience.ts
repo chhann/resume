@@ -6,6 +6,7 @@ const ceoPortal = {
     {
       title: '프론트엔드 개발자 (풀스택 경험)',
       startedAt: '2025-10',
+      endedAt: '2026-06',
       descriptions: [
         {
           content:
